@@ -29,6 +29,7 @@ namespace AssessmentKaiqueCoelho
             Console.WriteLine("5 -  Procurar");
             Console.WriteLine("6 -  Salvar");
             Console.WriteLine("---> Enter para sair");
+            Console.WriteLine("balela");
             string option = Console.ReadLine();
             switch (option)
             {
@@ -52,6 +53,7 @@ namespace AssessmentKaiqueCoelho
                     break;
             }
         }
+       
 
         private static void Salvar()
         {
